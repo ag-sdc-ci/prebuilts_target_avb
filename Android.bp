@@ -180,3 +180,14 @@ cc_library_static {
     ],
 }
 
+cc_library_host_static {
+    name: "libavb_host_sysdeps",
+    defaults: ["avb_defaults"],
+    header_libs: [
+        "avb_headers",
+    ],
+    export_header_lib_headers: ["avb_headers"],
+    srcs: ["libavb/avb_sysdeps_posix.c"],
+}
+
+
