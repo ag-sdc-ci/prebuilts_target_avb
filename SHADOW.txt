@@ -1,0 +1,6 @@
+shadow prebuilt repo: avb (target)
+  upstream: external/avb
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.avb.apex
+  dev-src: extracted extractive payload (libavb.so, libavb.a, libavb_baremetal.a, headers, avbtool.py) + root Android.bp
+  date: 2026-10-16

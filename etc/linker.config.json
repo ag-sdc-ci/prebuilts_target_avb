@@ -1,0 +1,24 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libavb-baremetal.a-x86_64-v2.so",
+		    "libdummy_binary_libavb-baremetal.a.so",
+		    "libdummy_binary_libavb-x86_64-v2.so.so",
+		    "libdummy_binary_libavb.a-x86_64-v2.so",
+		    "libdummy_binary_libavb.a.so",
+		    "libdummy_binary_libavb.so.so",
+		    "libdummy_ext_avb-x86_64-v2.so",
+		    "libdummy_ext_avb.so",
+		    "libdummy_headers_ext_avb-x86_64-v2.so",
+		    "libdummy_headers_ext_avb.so",
+		    "libdummy_shared_avb-x86_64-v2.so",
+		    "libdummy_shared_avb.so"
+	],
+	"requireLibs": [	
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libcrypto.so",
+		    "libdl.so",
+		    "libm.so"
+	],
+	"visible": true
+}
